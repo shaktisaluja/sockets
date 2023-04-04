@@ -1,0 +1,1049 @@
+{
+    "accountNumber": {
+        "value": "Your account number"
+    },
+    "requestedShipment": {
+        "labelSpecification": {
+            "imageType": "PDF",
+            "labelStockType": "PAPER_85X11_TOP_HALF_LABEL",
+            "labelFormatType": "COMMON2D",
+            "labelOrder": "SHIPPING_LABEL_FIRST",
+            "customerSpecifiedDetail": {
+                "maskedData": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "regulatoryLabels": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "additionalLabels": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "docTabContent": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "printedLabelOrigin": {
+                "address": {
+                    "streetLines": [
+                        "10 FedEx Parkway",
+                        "Suite 302"
+                    ],
+                    "city": "Beverly Hills",
+                    "stateOrProvinceCode": "CA",
+                    "postalCode": "38127",
+                    "countryCode": "US",
+                    "residential": false
+                },
+                "contact": {
+                    "personName": "person name",
+                    "emailAddress": "email address",
+                    "parsedPersonName": {
+                        "firstName": "first name",
+                        "lastName": "last name",
+                        "middleName": "middle name",
+                        "suffix": "suffix"
+                    },
+                    "phoneNumber": "phone number",
+                    "phoneExtension": "phone extension",
+                    "companyName": "company name",
+                    "faxNumber": "fax number"
+                }
+            },
+            "labelRotation": "UPSIDE_DOWN",
+            "labelPrintingOrientation": "TOP_EDGE_OF_TEXT_FIRST",
+            "returnedDispositionDetail": true
+        },
+        "packagingType": "YOUR_PACKAGING",
+        "pickupType": "USE_SCHEDULED_PICKUP",
+        "recipients": [
+            {
+                "address": {
+                    "streetLines": [
+                        "10 FedEx Parkway",
+                        "Suite 302"
+                    ],
+                    "city": "Beverly Hills",
+                    "stateOrProvinceCode": "CA",
+                    "postalCode": "90210",
+                    "countryCode": "US",
+                    "residential": false
+                },
+                "contact": {
+                    "personName": "John Taylor",
+                    "emailAddress": "sample@company.com",
+                    "phoneExtension": "000",
+                    "phoneNumber": "XXXX345671",
+                    "companyName": "FedEx"
+                },
+                "tins": [
+                    {
+                        "number": "123567",
+                        "tinType": "FEDERAL",
+                        "usage": "usage",
+                        "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                        "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                    }
+                ],
+                "deliveryInstructions": "Delivery Instructions"
+            },
+            {
+                "address": {
+                    "streetLines": [
+                        "10 FedEx Parkway",
+                        "Suite 302"
+                    ],
+                    "city": "Beverly Hills",
+                    "stateOrProvinceCode": "CA",
+                    "postalCode": "90210",
+                    "countryCode": "US",
+                    "residential": false
+                },
+                "contact": {
+                    "personName": "John Taylor",
+                    "emailAddress": "sample@company.com",
+                    "phoneExtension": "000",
+                    "phoneNumber": "XXXX345671",
+                    "companyName": "FedEx"
+                },
+                "tins": [
+                    {
+                        "number": "123567",
+                        "tinType": "FEDERAL",
+                        "usage": "usage",
+                        "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                        "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                    }
+                ],
+                "deliveryInstructions": "Delivery Instructions"
+            }
+        ],
+        "requestedPackageLineItems": [
+            {
+                "weight": {
+                    "units": "KG",
+                    "value": 68
+                },
+                "sequenceNumber": "1",
+                "subPackagingType": "BUCKET",
+                "customerReferences": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "declaredValue": {
+                    "amount": 12.45,
+                    "currency": "USD"
+                },
+                "dimensions": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "groupPackageCount": 2,
+                "itemDescriptionForClearance": "description",
+                "contentRecord": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "itemDescription": "item description for the package",
+                "variableHandlingChargeDetail": {
+                    "rateType": "PREFERRED_CURRENCY",
+                    "percentValue": 12.45,
+                    "rateLevelType": "INDIVIDUAL_PACKAGE_RATE",
+                    "fixedValue": {
+                        "amount": 24.45,
+                        "currency": "USD"
+                    },
+                    "rateElementBasis": "NET_CHARGE_EXCLUDING_TAXES"
+                },
+                "packageSpecialServices": {
+                    "specialServiceTypes": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "signatureOptionType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "priorityAlertDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "signatureOptionDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "alcoholDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "dangerousGoodsDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "packageCODDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "pieceCountVerificationBoxCount": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "batteryDetails": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "dryIceWeight": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                }
+            },
+            {
+                "weight": {
+                    "units": "KG",
+                    "value": 68
+                },
+                "sequenceNumber": "1",
+                "subPackagingType": "BUCKET",
+                "customerReferences": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "declaredValue": {
+                    "amount": 12.45,
+                    "currency": "USD"
+                },
+                "dimensions": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "groupPackageCount": 2,
+                "itemDescriptionForClearance": "description",
+                "contentRecord": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "itemDescription": "item description for the package",
+                "variableHandlingChargeDetail": {
+                    "rateType": "PREFERRED_CURRENCY",
+                    "percentValue": 12.45,
+                    "rateLevelType": "INDIVIDUAL_PACKAGE_RATE",
+                    "fixedValue": {
+                        "amount": 24.45,
+                        "currency": "USD"
+                    },
+                    "rateElementBasis": "NET_CHARGE_EXCLUDING_TAXES"
+                },
+                "packageSpecialServices": {
+                    "specialServiceTypes": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "signatureOptionType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "priorityAlertDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "signatureOptionDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "alcoholDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "dangerousGoodsDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "packageCODDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "pieceCountVerificationBoxCount": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "batteryDetails": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "dryIceWeight": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                }
+            }
+        ],
+        "serviceType": "PRIORITY_OVERNIGHT",
+        "shipper": {
+            "address": {
+                "streetLines": [
+                    "10 FedEx Parkway",
+                    "Suite 302"
+                ],
+                "city": "Beverly Hills",
+                "stateOrProvinceCode": "CA",
+                "postalCode": "90210",
+                "countryCode": "US",
+                "residential": false
+            },
+            "contact": {
+                "personName": "John Taylor",
+                "emailAddress": "sample@company.com",
+                "phoneExtension": "000",
+                "phoneNumber": "XXXX345671",
+                "companyName": "Fedex"
+            },
+            "tins": [
+                {
+                    "number": "123567",
+                    "tinType": "FEDERAL",
+                    "usage": "usage",
+                    "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                    "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                }
+            ]
+        },
+        "shippingChargesPayment": {
+            "paymentType": "SENDER",
+            "payor": {
+                "responsibleParty": {
+                    "address": {
+                        "streetLines": [
+                            "10 FedEx Parkway",
+                            "Suite 302"
+                        ],
+                        "city": "Beverly Hills",
+                        "stateOrProvinceCode": "CA",
+                        "postalCode": "90210",
+                        "countryCode": "US",
+                        "residential": false
+                    },
+                    "contact": {
+                        "personName": "John Taylor",
+                        "emailAddress": "sample@company.com",
+                        "parsedPersonName": {
+                            "firstName": "first name",
+                            "lastName": "last name",
+                            "middleName": "middle name",
+                            "suffix": "suffix"
+                        },
+                        "phoneNumber": "XXXX567890",
+                        "phoneExtension": "phone extension",
+                        "companyName": "Fedex",
+                        "faxNumber": "fax number"
+                    },
+                    "accountNumber": {
+                        "value": "Your account number"
+                    }
+                }
+            }
+        },
+        "shipDatestamp": "2019-10-14",
+        "totalDeclaredValue": {
+            "amount": 12.45,
+            "currency": "USD"
+        },
+        "recipientLocationNumber": "1234567",
+        "totalWeight": 20.6,
+        "origin": {
+            "address": {
+                "streetLines": [
+                    "10 FedEx Parkway",
+                    "Suite 302"
+                ],
+                "city": "Beverly Hills",
+                "stateOrProvinceCode": "CA",
+                "postalCode": "38127",
+                "countryCode": "US",
+                "residential": false
+            },
+            "contact": {
+                "personName": "person name",
+                "emailAddress": "email address",
+                "phoneNumber": "phone number",
+                "phoneExtension": "phone extension",
+                "companyName": "company name",
+                "faxNumber": "fax number"
+            }
+        },
+        "shipmentSpecialServices": {
+            "specialServiceTypes": [
+                "THIRD_PARTY_CONSIGNEE",
+                "PROTECTION_FROM_FREEZING"
+            ],
+            "etdDetail": {
+                "attributes": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "attachedDocuments": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "requestedDocumentTypes": [
+                    "VICS_BILL_OF_LADING",
+                    "GENERAL_AGENCY_AGREEMENT"
+                ]
+            },
+            "returnShipmentDetail": {
+                "returnType": "PRINT_RETURN_LABEL",
+                "returnEmailDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "rma": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "returnAssociationDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "deliveryOnInvoiceAcceptanceDetail": {
+                "recipient": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "internationalTrafficInArmsRegulationsDetail": {
+                "licenseOrExemptionNumber": "9871234"
+            },
+            "pendingShipmentDetail": {
+                "emailLabelDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "pendingShipmentType": "EMAIL",
+                "processingOptions": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "recommendedDocumentSpecification": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "attachedDocuments": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "expirationTimeStamp": "2020-01-01"
+            },
+            "holdAtLocationDetail": {
+                "locationId": "YBZA",
+                "locationContactAndAddress": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "locationType": "FEDEX_ONSITE"
+            },
+            "shipmentCODDetail": {
+                "codCollectionType": "GUARANTEED_FUNDS",
+                "addTransportationChargesDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "codRecipient": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "remitToName": "remitToName",
+                "financialInstitutionContactAndAddress": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "codCollectionAmount": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "returnReferenceIndicatorType": "PO",
+                "shipmentCodAmount": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "shipmentDryIceDetail": {
+                "totalWeight": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "packageCount": 12
+            },
+            "internationalControlledExportDetail": {
+                "type": "WAREHOUSE_WITHDRAWAL",
+                "licenseOrPermitExpirationDate": "2019-12-03",
+                "licenseOrPermitNumber": "11",
+                "entryNumber": "125",
+                "foreignTradeZoneCode": "US"
+            },
+            "homeDeliveryPremiumDetail": {
+                "phoneNumber": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "deliveryDate": "2019-06-26",
+                "homedeliveryPremiumType": "APPOINTMENT"
+            }
+        },
+        "emailNotificationDetail": {
+            "aggregationType": "PER_PACKAGE",
+            "emailNotificationRecipients": [
+                {
+                    "emailAddress": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "emailNotificationRecipientType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "name": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "notificationFormatType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "notificationType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "locale": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "notificationEventType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                },
+                {
+                    "emailAddress": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "emailNotificationRecipientType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "name": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "notificationFormatType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "notificationType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "locale": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "notificationEventType": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                }
+            ],
+            "personalMessage": "your personal message here"
+        },
+        "expressFreightDetail": {
+            "bookingConfirmationNumber": "123456789812",
+            "shippersLoadAndCount": 123,
+            "packingListEnclosed": true
+        },
+        "variableHandlingChargeDetail": {
+            "rateType": "PREFERRED_CURRENCY",
+            "percentValue": 12.45,
+            "rateLevelType": "INDIVIDUAL_PACKAGE_RATE",
+            "fixedValue": {
+                "amount": 24.45,
+                "currency": "USD"
+            },
+            "rateElementBasis": "NET_CHARGE_EXCLUDING_TAXES"
+        },
+        "customsClearanceDetail": {
+            "commercialInvoice": {
+                "originatorName": "originator Name",
+                "comments": [
+                    "optional comments for the commercial invoice"
+                ],
+                "customerReferences": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "taxesOrMiscellaneousCharge": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "taxesOrMiscellaneousChargeType": "COMMISSIONS",
+                "freightCharge": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "packingCosts": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "handlingCosts": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "declarationStatement": "declarationStatement",
+                "termsOfSale": "FCA",
+                "specialInstructions": "specialInstructions\"",
+                "shipmentPurpose": "REPAIR_AND_RETURN",
+                "emailNotificationDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "commodities": [
+                {
+                    "description": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "unitPrice": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "additionalMeasures": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "numberOfPieces": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "quantity": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "quantityUnits": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "customsValue": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "countryOfManufacture": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "cIMarksAndNumbers": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "harmonizedCode": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "name": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "weight": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "exportLicenseNumber": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "exportLicenseExpirationDate": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "partNumber": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "purpose": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "usmcaDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                },
+                {
+                    "description": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "unitPrice": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "additionalMeasures": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "numberOfPieces": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "quantity": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "quantityUnits": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "customsValue": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "countryOfManufacture": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "cIMarksAndNumbers": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "harmonizedCode": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "name": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "weight": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "exportLicenseNumber": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "exportLicenseExpirationDate": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "partNumber": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "purpose": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    "usmcaDetail": {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                }
+            ],
+            "regulatoryControls": [
+                "USMCA",
+                "FOOD_OR_PERISHABLE"
+            ],
+            "brokers": [
+                {
+                    "broker": {
+                        "address": {
+                            "streetLines": [
+                                "10 FedEx Parkway",
+                                "Suite 302"
+                            ],
+                            "city": "Beverly Hills",
+                            "stateOrProvinceCode": "CA",
+                            "postalCode": "90210",
+                            "countryCode": "US",
+                            "residential": false
+                        },
+                        "contact": {
+                            "personName": "John Taylor",
+                            "emailAddress": "sample@company.com",
+                            "parsedPersonName": {
+                                "firstName": "John",
+                                "lastName": "Taylor",
+                                "middleName": "Raymond",
+                                "suffix": "Jr"
+                            },
+                            "phoneNumber": "1234567890",
+                            "phoneExtension": 91,
+                            "companyName": "Fedex",
+                            "faxNumber": 1234567
+                        },
+                        "accountNumber": {
+                            "value": "Your account number"
+                        },
+                        "tins": [
+                            {
+                                "number": "number",
+                                "tinType": "FEDERAL",
+                                "usage": "usage",
+                                "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                                "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                            }
+                        ],
+                        "deliveryInstructions": "deliveryInstructions"
+                    },
+                    "type": "IMPORT"
+                },
+                {
+                    "broker": {
+                        "address": {
+                            "streetLines": [
+                                "10 FedEx Parkway",
+                                "Suite 302"
+                            ],
+                            "city": "Beverly Hills",
+                            "stateOrProvinceCode": "CA",
+                            "postalCode": "90210",
+                            "countryCode": "US",
+                            "residential": false
+                        },
+                        "contact": {
+                            "personName": "John Taylor",
+                            "emailAddress": "sample@company.com",
+                            "parsedPersonName": {
+                                "firstName": "John",
+                                "lastName": "Taylor",
+                                "middleName": "Raymond",
+                                "suffix": "Jr"
+                            },
+                            "phoneNumber": "1234567890",
+                            "phoneExtension": 91,
+                            "companyName": "Fedex",
+                            "faxNumber": 1234567
+                        },
+                        "accountNumber": {
+                            "value": "Your account number"
+                        },
+                        "tins": [
+                            {
+                                "number": "number",
+                                "tinType": "FEDERAL",
+                                "usage": "usage",
+                                "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                                "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                            }
+                        ],
+                        "deliveryInstructions": "deliveryInstructions"
+                    },
+                    "type": "IMPORT"
+                }
+            ],
+            "freightOnValue": "OWN_RISK",
+            "dutiesPayment": {
+                "payor": {
+                    "responsibleParty": {
+                        "address": {
+                            "streetLines": [
+                                "10 FedEx Parkway",
+                                "Suite 302"
+                            ],
+                            "city": "Beverly Hills",
+                            "stateOrProvinceCode": "CA",
+                            "postalCode": "38127",
+                            "countryCode": "US",
+                            "residential": false
+                        },
+                        "contact": {
+                            "personName": "John Taylor",
+                            "emailAddress": "sample@company.com",
+                            "parsedPersonName": {
+                                "firstName": "first name",
+                                "lastName": "last name",
+                                "middleName": "middle name",
+                                "suffix": "suffix"
+                            },
+                            "phoneNumber": "1234567890",
+                            "phoneExtension": "phone extension",
+                            "companyName": "Fedex",
+                            "faxNumber": "fax number"
+                        },
+                        "accountNumber": {
+                            "value": "Your account number"
+                        },
+                        "tins": [
+                            {
+                                "number": "number",
+                                "tinType": "FEDERAL",
+                                "usage": "usage",
+                                "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                                "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                            },
+                            {
+                                "number": "number",
+                                "tinType": "FEDERAL",
+                                "usage": "usage",
+                                "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                                "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                            }
+                        ]
+                    }
+                },
+                "billingDetails": {
+                    "billingCode": "billingCode",
+                    "billingType": "billingType",
+                    "aliasId": "aliasId",
+                    "accountNickname": "accountNickname",
+                    "accountNumber": "Your account number",
+                    "accountNumberCountryCode": "US"
+                },
+                "paymentType": "SENDER"
+            },
+            "isDocumentOnly": true,
+            "recipientCustomsId": {
+                "type": "PASSPORT",
+                "value": "123"
+            },
+            "customsOption": {
+                "description": "Description",
+                "type": "COURTESY_RETURN_LABEL"
+            },
+            "importerOfRecord": {
+                "address": {
+                    "streetLines": [
+                        "10 FedEx Parkway",
+                        "Suite 302"
+                    ],
+                    "city": "Beverly Hills",
+                    "stateOrProvinceCode": "CA",
+                    "postalCode": "90210",
+                    "countryCode": "US",
+                    "residential": false
+                },
+                "contact": {
+                    "personName": "John Taylor",
+                    "emailAddress": "sample@company.com",
+                    "phoneExtension": "000",
+                    "phoneNumber": "XXXX345671",
+                    "companyName": "Fedex"
+                },
+                "accountNumber": {
+                    "value": "Your account number"
+                },
+                "tins": [
+                    {
+                        "number": "123567",
+                        "tinType": "FEDERAL",
+                        "usage": "usage",
+                        "effectiveDate": "2000-01-23T04:56:07.000+00:00",
+                        "expirationDate": "2000-01-23T04:56:07.000+00:00"
+                    }
+                ]
+            },
+            "generatedDocumentLocale": "en_US",
+            "exportDetail": {
+                "b13AFilingOption": "NOT_REQUIRED",
+                "permitNumber": "12345",
+                "destinationControlDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "exportComplianceStatement": "export Compliance Statement"
+            },
+            "totalCustomsValue": {
+                "amount": 12.45,
+                "currency": "USD"
+            },
+            "partiesToTransactionAreRelated": false,
+            "declarationStatementDetail": {
+                "usmcaLowValueStatementDetail": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "insuranceCharge": {
+                "amount": 12.45,
+                "currency": "USD"
+            }
+        },
+        "smartPostInfoDetail": {
+            "hubId": "5015",
+            "indicia": "PRESORTED_STANDARD",
+            "ancillaryEndorsement": "RETURN_SERVICE",
+            "specialServices": "USPS_DELIVERY_CONFIRMATION"
+        },
+        "blockInsightVisibility": true,
+        "shippingDocumentSpecification": {
+            "generalAgencyAgreementDetail": {
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "returnInstructionsDetail": {
+                "customText": "This is additional text printed on Return instr",
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "op900Detail": {
+                "customerImageUsages": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "signatureName": "Signature Name",
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "usmcaCertificationOfOriginDetail": {
+                "customerImageUsages": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "certifierSpecification": "EXPORTER",
+                "importerSpecification": "UNKNOWN",
+                "producerSpecification": "SAME_AS_EXPORTER",
+                "producer": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "blanketPeriod": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "certifierJobTitle": "Manager"
+            },
+            "usmcaCommercialInvoiceCertificationOfOriginDetail": {
+                "customerImageUsages": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "certifierSpecification": "EXPORTER",
+                "importerSpecification": "UNKNOWN",
+                "producerSpecification": "SAME_AS_EXPORTER",
+                "producer": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                },
+                "certifierJobTitle": "Manager"
+            },
+            "shippingDocumentTypes": [
+                "RETURN_INSTRUCTIONS",
+                "DANGEROUS_GOODS_SHIPPERS_DECLARATION"
+            ],
+            "certificateOfOrigin": {
+                "customerImageUsages": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            },
+            "commercialInvoiceDetail": {
+                "customerImageUsages": [
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    },
+                    {
+                        "value": "<Error: Too many levels of nesting to fake this schema>"
+                    }
+                ],
+                "documentFormat": {
+                    "value": "<Error: Too many levels of nesting to fake this schema>"
+                }
+            }
+        },
+        "rateRequestType": [
+            "LIST",
+            "PREFERRED"
+        ],
+        "preferredCurrency": "USD",
+        "totalPackageCount": 25,
+        "masterTrackingId": {
+            "formId": "0201",
+            "trackingIdType": "EXPRESS",
+            "uspsApplicationId": "92",
+            "trackingNumber": "49092000070120032835"
+        },
+        "pickupDetail": {
+            "latestPickupDateTime": "2020-07-03T09:00:00Z",
+            "readyPickupDateTime": "2020-07-03T09:00:00Z"
+        }
+    }
+}
